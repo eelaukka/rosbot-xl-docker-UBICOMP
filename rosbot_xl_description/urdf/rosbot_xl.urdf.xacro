@@ -28,8 +28,8 @@
 
   <xacro:property name="lidar_model" value="$(arg lidar_model)" />
   <xacro:property name="lidar_parent_link" value="cover_link" />
-  <xacro:property name="lidar_xyz" value="0.02 0.0 0.0" />
-  <xacro:property name="lidar_rpy" value="0.0 0.0 0.0" />
+  <xacro:property name="lidar_xyz" value="0.12 0.0 0.0" />
+  <xacro:property name="lidar_rpy" value="0.0 0.0 1.5708" /> <!-- yaw 90 degrees in radians -->
   <xacro:property name="lidar_use_gpu" value="true" />
   <!-- use_gpu has to be set to true, CPU lidar doesn't work in ignition -
     https://github.com/gazebosim/gz-sensors/issues/26 -->
